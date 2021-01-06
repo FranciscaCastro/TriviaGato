@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "Owl Cute";
+  src: url("Owl Cute.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+a {
+  font-size: 80%;
+  color: inherit;
+  text-decoration: none;
+  padding: 20px 0px 0;
+}
+
+
+body {
+  background-image: url(background.jpg);
+  font-family: 'Owl Cute', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #A58E6A
+}
+
+.container {
+  padding: 50px 10px 0;
+}
+
+.titulo__marca {
+   font-size: 15px;
+   padding: 50px
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  width: 70%;
+  background: #C4C4C4;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.bienvenida {
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow:  0 8px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  margin: 25px auto;
+  height: 250px;
+  width: 310px;
+}
+
+.saludo {
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow:  0 8px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  margin: 30px auto;
+  height: 250px;
+  width: 310px;
+}
+
+.triviabox {
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow:  0 8px 10px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  margin: 25px auto;
+  height: 550px;
+  width: 330px;
+}
+
+.enviar {
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%;
+  font-weight: bold;
+  background: #FEEDB1;  
+  border: 4px solid #A58E6A;
+  box-sizing: border-box;
+  color:#A58E6A;
+}
+
+.sueño {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  width: 140px;
+  height: 65px;
+  background: #FEEDB1;  
+  border: 4px solid #A58E6A;
+  box-sizing: border-box;
+}
+
+.random {
+  position: absolute;
+  top: 75%;
+  right: 10%;
+  width: 140px;
+  height: 65px;
+  background:#FEEDB1;
+  border: 4px solid #A58E6A;
+  box-sizing: border-box;
+  }
+
+.botonVolver {
+  background-color:#FEEDB1;
+  border: 4px solid #A58E6A;
+  border-radius: 1px;
+  font-weight: bold;
+  display: block;
+  padding: 5px 10px;
+  margin: 10px auto;
+  width: 40%;  
+  box-sizing: border-box;
+  color: #a58e6a;  
+}
+
+.boton:hover,
+.botonTrivias:hover
+.botonSiguiente:hover {
+  background-color: white;
+  color: #A58E6A;
+  border: 1px solid white
+}
+
+.botonTrivias {
+  font-family: 'Owl Cute', cursive;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px auto;
+  width: 80%
+}
+
+.pregunta {
+  display:block;
+  font-weight: 300;
+}
+
+.botonSiguiente {  
+  font-family: 'Owl Cute', cursive;
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 30%;
+  margin-left: 60%;
+  font-weight: bold;
+  background: #FEEDB1;  
+  border: 4px solid #A58E6A;
+  box-sizing: border-box;
+  color:#A58E6A;
+}
+
+
+.invitacion {
+  font-size:16px;
+  margin: 10px 0;
+}
+
+.imgDecoracion {
+  width:180px;
+}
+
+.puntajeTitulo {
+  color:  #A58E6A;
+  font-size: 25px;
+}
+
+.cronometro {
+  border-radius: 10px;
+  border: 1px solid #A58E6A;
+  min-height: 30px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.foto1 {
+   padding: 10px;
+   margin: 10px;
+   float: center;
+   width: 250px;
+   }
+
+.foto2 {
+   width: 280px;
+   padding: 0px 0px 30px
+   }
+
+.foto3 {
+   float: center;
+   height: 250px;
+   width: 250px;
+   }
+
