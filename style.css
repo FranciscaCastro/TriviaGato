@@ -35,6 +35,11 @@ body {
    padding: 50px
 }
 
+.invitacion {
+  font-size:16px;
+  margin: 10px 0;
+}
+
 .pregunta {
   margin: 20px;
   font-family: 'Owl Cute', cursive;
@@ -166,11 +171,7 @@ body {
   box-sizing: border-box;  
 }
 
-.invitacion {
-  font-size:16px;
-  margin: 10px 0;
-}
-
+/* espacio para otros */
 .cronometro {
   font-size: 120%;
   border-radius: 10px;

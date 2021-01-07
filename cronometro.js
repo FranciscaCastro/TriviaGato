@@ -1,8 +1,7 @@
 function iniciarCronometro() {
   const contador = 45, cronometroDisplay = document.getElementById("cronometro")
 
-  iniciarTiempo(contador, cronometroDisplay)
-  
+  iniciarTiempo(contador, cronometroDisplay)  
 }
 
 function iniciarTiempo(duracion, componente) {
@@ -24,5 +23,4 @@ function iniciarTiempo(duracion, componente) {
       duracion--;
     }
     }, 1000)
-
 }

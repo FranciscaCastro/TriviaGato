@@ -1,4 +1,5 @@
 function pintarResultado() {
+  
   let puntaje = localStorage.getItem("SCORE")
   let puntajeContenedor = document.getElementById("SCORE")
   
