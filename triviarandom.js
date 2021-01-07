@@ -33,6 +33,8 @@ function iniciar() {
     if (localStorage.getItem("SCORE") != null) {
         localStorage.removeItem("SCORE");
     }
+    }
+
 
 function loadQuestions() {
    iniciarCronometro();
