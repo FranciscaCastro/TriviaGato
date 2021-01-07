@@ -77,9 +77,9 @@ function verificarRespuestaCorrecta(indice, correcta) {
     
     localStorage.setItem("SCORE", puntos);
      
-    document.getElementById("opcion0").disabled = true;
-    document.getElementById("opcion1").disabled = true;
-    document.getElementById("opcion2").disabled = true;
+    document.getElementById("opcion0").disabled = false;
+    document.getElementById("opcion1").disabled = false;
+    document.getElementById("opcion2").disabled = false;
 }
 
 document.getElementById("siguienteTrivia").addEventListener("click", () => { clearInterval(interval), loadQuestions() });
