@@ -22,7 +22,7 @@ gatitos durmiendo (salvo el que te guía) y en su mejor versión, que tuviese un
 
 <img width=400 src="https://github.com/FranciscaCastro/TriviaGato/blob/trivia/prototipo.jpg">
 
-#El juego
+# El juego
 
 1. El juego inicia con un gato que al igual que tú, no puede conciliar el sueño, así que te pregunta tu nombre.
 2. En la segunda pantalla te saluda por tu nombre y te invita a escoger una de las dos categorías de trivia.
