@@ -24,8 +24,8 @@ gatitos durmiendo (salvo el que te guía) y en su mejor versión, que tuviese un
 
 #El juego
 
--El juego inicia con un gato que al igual que tú, no puede conciliar el sueño, así que te pregunta tu nombre.
--En la segunda pantalla te saluda por tu nombre y te invita a escoger una de las dos categorías de trivia.
--Al escoger una de las categorías te lleva a otra pantalla en que se muestran las preguntas y alternativas, con un contador de tiempo
--Al finalizar las preguntas, te da el resultado final, dando 10 puntos por cada respuesta correcta. El gato se despide recomendándote ir a dormir, pero dejando abierta
+1. El juego inicia con un gato que al igual que tú, no puede conciliar el sueño, así que te pregunta tu nombre.
+2. En la segunda pantalla te saluda por tu nombre y te invita a escoger una de las dos categorías de trivia.
+3. Al escoger una de las categorías te lleva a otra pantalla en que se muestran las preguntas y alternativas, con un contador de tiempo
+4. Al finalizar las preguntas, te da el resultado final, dando 10 puntos por cada respuesta correcta. El gato se despide recomendándote ir a dormir, pero dejando abierta
 la invitación a repetir el juego.
