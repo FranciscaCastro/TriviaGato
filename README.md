@@ -9,19 +9,18 @@ respondan una serie de preguntas relacionadas al buen dormir que ayuden a que pu
 Nuestros primeros prototipos apuntaban encontrar una cercanía con el público, que tuviese un lenguaje coloquial y familiar, como si un amigo te estuviera ayudando
 a conciliar el sueño.
 
-
+<img width=400 src="https://raw.githubusercontent.com/FranciscaCastro/TriviaGato/trivia/boceto1.jpg">
 
 En este momento fue que tomamos la decisión de hacerlo en formato móvil, apuntando a la  comodidad del usuario, asumiendo que está acostado. También decidimos
 incorporar elementos que crearan un espacio cálido y tierno; como animales gordos en íconos, y optamos por hacer que quien te hable y presente la trivia sea un Gato.
 
-(añadir prototipo Vale)
+<img width=400 src="https://raw.githubusercontent.com/FranciscaCastro/TriviaGato/trivia/boceto2.jpg"> <img width=400 src="https://github.com/FranciscaCastro/TriviaGato/blob/trivia/boceto3.jpg">
 
-Una vez terminado el prototipo, lo probamos con posibles usuarios y con las coach que nos recomendaron hacer diferencias entre los cuadros de texto y botones, además de
-sugerencias sobre los colores.
+Una vez realizado el primer el prototipo, lo probamos con posibles usuarios y con las coach que nos recomendaron hacer diferencias entre los cuadros de texto y botones, además de sugerencias sobre los colores.
 El diseño de la interfaz de usuario finalmente buscó priorizar esta sensación de ternura y dulzura. Colores pasteles, cajas de texto con bordes redondeados, 
 gatitos durmiendo (salvo el que te guía) y en su mejor versión, que tuviese una música incidental.
 
-(Aquí va la imagen del pantallazo de Figma)
+<img width=400 src="https://github.com/FranciscaCastro/TriviaGato/blob/trivia/prototipo.jpg">
 
 #El juego
 
