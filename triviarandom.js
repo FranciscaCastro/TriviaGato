@@ -35,6 +35,34 @@ function iniciar() {
     }
     }
 
+function iniciarCronometro() {
+  const contador = 45, cronometroDisplay = document.getElementById("cronometro")
+
+  iniciarTiempo(contador, cronometroDisplay)
+  
+}
+
+function iniciarTiempo(duracion, componente) {
+    interval = setInterval(() => {
+    if (duracion === 0) {
+
+      componente.innerHTML = "Se acabó el tiempo";
+
+      clearInterval(interval);
+
+      loadQuestions()
+
+    } else {
+      
+      duracion = duracion <45 ? + duracion : duracion;
+
+      componente.textContent = "00:" + duracion;
+
+      duracion--;
+    }
+    }, 1000)
+
+}
 
 function loadQuestions() {
    iniciarCronometro();
@@ -53,7 +81,6 @@ function loadQuestions() {
 
         pregunta_txt += '<button id="opcion2" class="botonTrivias" onclick="verificarRespuestaCorrecta(2, ' + preguntas[indice_aleatorio].correcta + ')">' + preguntas[indice_aleatorio].respuestas[2] + '</button>';
 
-        
         document.getElementById("pregunta").innerHTML = pregunta_txt;
 
         preguntas.splice(indice_aleatorio, 1);
@@ -77,4 +104,4 @@ function verificarRespuestaCorrecta(indice, correcta) {
     document.getElementById("opcion2").disabled = false;
 }
 
-document.getElementById("siguienteTrivia").addEventListener("click", () => { clearInterval(interval), loadQuestions() });
+document.getElementById("siguienteTrivia").addEventListener("click", () => { clearInterval(interval), loadQuestions() });   
