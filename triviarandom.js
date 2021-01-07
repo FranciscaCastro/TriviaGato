@@ -35,7 +35,6 @@ function iniciar() {
     }
     }
 
-
 function loadQuestions() {
    iniciarCronometro();
 
